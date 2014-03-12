@@ -1,0 +1,1 @@
+{"stdlib":"libcxx","unused_options":["--c++11","--32-bit"],"HEAD":"cfa81de1e0b6a20de5379a92025acbdd4db72d01","used_options":[],"tapped_from":"mxcl/master","poured_from_bottle":true,"time":1386219345,"compiler":"clang","built_as_bottle":true}

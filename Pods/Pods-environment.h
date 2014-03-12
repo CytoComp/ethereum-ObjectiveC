@@ -12,6 +12,12 @@
 #define COCOAPODS_VERSION_MINOR_cryptopp 6
 #define COCOAPODS_VERSION_PATCH_cryptopp 2
 
+// gmp
+#define COCOAPODS_POD_AVAILABLE_gmp
+#define COCOAPODS_VERSION_MAJOR_gmp 5
+#define COCOAPODS_VERSION_MINOR_gmp 1
+#define COCOAPODS_VERSION_PATCH_gmp 3
+
 // leveldb
 #define COCOAPODS_POD_AVAILABLE_leveldb
 #define COCOAPODS_VERSION_MAJOR_leveldb 1

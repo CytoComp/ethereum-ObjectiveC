@@ -10,6 +10,7 @@
 #import <md5.h>
 #import <miniupnpc.h>
 #import <filter_policy.h>
+#import <gmp.h>
 
 @implementation AppDelegate
 
@@ -23,7 +24,9 @@
     CryptoPP::MD5 md5; //
     UPNPDev dev;
     leveldb::FilterPolicy *filter;
+    __GMP_ABS(1);
 }
+
 
 
 @end
