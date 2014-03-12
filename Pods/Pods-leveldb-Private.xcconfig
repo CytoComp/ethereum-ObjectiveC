@@ -1,6 +1,6 @@
 #include "Pods-leveldb.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/leveldb" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/cryptopp" "${PODS_ROOT}/Headers/gmp" "${PODS_ROOT}/Headers/leveldb" "${PODS_ROOT}/Headers/miniupnpc"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/leveldb" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/boost" "${PODS_ROOT}/Headers/cryptopp" "${PODS_ROOT}/Headers/gmp" "${PODS_ROOT}/Headers/leveldb" "${PODS_ROOT}/Headers/miniupnpc"
 LIBRARY_SEARCH_PATHS = ${PODS_LEVELDB_LIBRARY_SEARCH_PATHS}
 OTHER_LDFLAGS = -ObjC ${PODS_LEVELDB_OTHER_LDFLAGS}
 PODS_ROOT = ${SRCROOT}

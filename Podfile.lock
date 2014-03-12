@@ -1,10 +1,26 @@
 PODS:
+  - boost (1.51.0):
+    - boost/graph-includes
+    - boost/math-includes
+    - boost/numeric-includes
+    - boost/pointer_cast-includes
+    - boost/preprocessor-includes
+    - boost/shared_ptr-includes
+    - boost/string_algorithms-includes
+  - boost/graph-includes (1.51.0)
+  - boost/math-includes (1.51.0)
+  - boost/numeric-includes (1.51.0)
+  - boost/pointer_cast-includes (1.51.0)
+  - boost/preprocessor-includes (1.51.0)
+  - boost/shared_ptr-includes (1.51.0)
+  - boost/string_algorithms-includes (1.51.0)
   - cryptopp (5.6.2)
   - gmp (5.1.3)
   - leveldb (1.15.0)
   - miniupnpc (1.8.20131007)
 
 DEPENDENCIES:
+  - boost (~> 1.51.0)
   - cryptopp (from `LocalPods/cryptopp`)
   - gmp (from `LocalPods/gmp`)
   - leveldb (from `LocalPods/leveldb`)
@@ -21,6 +37,7 @@ EXTERNAL SOURCES:
     :path: LocalPods/miniupnpc
 
 SPEC CHECKSUMS:
+  boost: 539751dc8de2061ef791496669143ac5937e9f4d
   cryptopp: 58392d1c6459645bb0c5ed4b0dd2c9df212b6fac
   gmp: faf998c9d724580d27c131228c371542cc597d64
   leveldb: 87139120a416dad48bdabbea6671085cad794953
