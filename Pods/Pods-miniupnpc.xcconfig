@@ -1,0 +1,2 @@
+PODS_MINIUPNPC_LIBRARY_SEARCH_PATHS = "LocalPods/miniupnpc/1.8.20131007/lib"
+PODS_MINIUPNPC_OTHER_LDFLAGS = -lc++ -lminiupnpc

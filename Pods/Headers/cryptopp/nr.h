@@ -1,6 +1,1 @@
-#ifndef CRYPTOPP_NR_H
-#define CRYPTOPP_NR_H
-
-#include "gfpcrypt.h"
-
-#endif
+../../../LocalPods/cryptopp/5.6.2/include/cryptopp/nr.h

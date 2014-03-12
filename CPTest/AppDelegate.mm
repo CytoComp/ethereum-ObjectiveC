@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <md5.h>
+#import <miniupnpc.h>
 
 @implementation AppDelegate
 
@@ -19,6 +20,7 @@
 
 - (void)test{
     CryptoPP::MD5 md5; //
+    UPNPDev dev;
 }
 
 

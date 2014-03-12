@@ -1,14 +1,19 @@
 PODS:
   - cryptopp (5.6.2)
+  - miniupnpc (1.8.20131007)
 
 DEPENDENCIES:
   - cryptopp (from `LocalPods/cryptopp`)
+  - miniupnpc (from `LocalPods/miniupnpc`)
 
 EXTERNAL SOURCES:
   cryptopp:
     :path: LocalPods/cryptopp
+  miniupnpc:
+    :path: LocalPods/miniupnpc
 
 SPEC CHECKSUMS:
   cryptopp: 58392d1c6459645bb0c5ed4b0dd2c9df212b6fac
+  miniupnpc: 974fae71e61db227f57be2610174cdee6ab555b5
 
 COCOAPODS: 0.29.0
