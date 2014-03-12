@@ -1,0 +1,2 @@
+PODS_CRYPTOPP_LIBRARY_SEARCH_PATHS = "LocalPods/cryptopp/5.6.2/lib"
+PODS_CRYPTOPP_OTHER_LDFLAGS = -lc++ -lcryptopp
