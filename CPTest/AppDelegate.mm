@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <md5.h>
 #import <miniupnpc.h>
+#import <filter_policy.h>
 
 @implementation AppDelegate
 
@@ -21,6 +22,7 @@
 - (void)test{
     CryptoPP::MD5 md5; //
     UPNPDev dev;
+    leveldb::FilterPolicy *filter;
 }
 
 

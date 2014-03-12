@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-leveldb.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-miniupnpc.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>279E4B98949545268C944EF5</key>
+		<key>4CD74180078C4335B79222B7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>98227FBDC1FB4230846204A4</key>
+		<key>4E875B8D4A5A44D983297891</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5B8272B62B640D0BEF8C218</key>
+		<key>6EECB7423CA34CDB8781E9F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73710DB36D3F4C1DB121646F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

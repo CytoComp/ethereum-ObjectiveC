@@ -12,6 +12,12 @@
 #define COCOAPODS_VERSION_MINOR_cryptopp 6
 #define COCOAPODS_VERSION_PATCH_cryptopp 2
 
+// leveldb
+#define COCOAPODS_POD_AVAILABLE_leveldb
+#define COCOAPODS_VERSION_MAJOR_leveldb 1
+#define COCOAPODS_VERSION_MINOR_leveldb 15
+#define COCOAPODS_VERSION_PATCH_leveldb 0
+
 // miniupnpc
 #define COCOAPODS_POD_AVAILABLE_miniupnpc
 #define COCOAPODS_VERSION_MAJOR_miniupnpc 1

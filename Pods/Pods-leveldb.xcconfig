@@ -1,0 +1,2 @@
+PODS_LEVELDB_LIBRARY_SEARCH_PATHS = "LocalPods/leveldb/1.15.0/lib"
+PODS_LEVELDB_OTHER_LDFLAGS = -lc++ -lleveldb

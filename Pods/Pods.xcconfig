@@ -1,6 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/cryptopp" "${PODS_ROOT}/Headers/miniupnpc"
-LIBRARY_SEARCH_PATHS = "LocalPods/cryptopp/5.6.2/lib" "LocalPods/miniupnpc/1.8.20131007/lib"
-OTHER_CFLAGS = $(inherited) "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/cryptopp" "-isystem${PODS_ROOT}/Headers/miniupnpc"
-OTHER_LDFLAGS = -ObjC -lc++ -lcryptopp -lminiupnpc
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/cryptopp" "${PODS_ROOT}/Headers/leveldb" "${PODS_ROOT}/Headers/miniupnpc"
+LIBRARY_SEARCH_PATHS = "LocalPods/cryptopp/5.6.2/lib" "LocalPods/leveldb/1.15.0/lib" "LocalPods/miniupnpc/1.8.20131007/lib"
+OTHER_CFLAGS = $(inherited) "-isystem${PODS_ROOT}/Headers" "-isystem${PODS_ROOT}/Headers/cryptopp" "-isystem${PODS_ROOT}/Headers/leveldb" "-isystem${PODS_ROOT}/Headers/miniupnpc"
+OTHER_LDFLAGS = -ObjC -lc++ -lcryptopp -lleveldb -lminiupnpc
 PODS_ROOT = ${SRCROOT}/Pods
