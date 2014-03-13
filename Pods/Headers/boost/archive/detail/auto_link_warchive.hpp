@@ -1,0 +1,1 @@
+../../../../../LocalPods/boost/1.55.0/boost/archive/detail/auto_link_warchive.hpp

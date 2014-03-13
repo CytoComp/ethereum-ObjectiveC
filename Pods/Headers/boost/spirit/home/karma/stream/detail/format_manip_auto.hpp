@@ -1,0 +1,1 @@
+../../../../../../../../LocalPods/boost/1.55.0/boost/spirit/home/karma/stream/detail/format_manip_auto.hpp

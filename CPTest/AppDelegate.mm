@@ -11,6 +11,35 @@
 #import <miniupnpc.h>
 #import <filter_policy.h>
 #import <gmp.h>
+#import <boost/multiprecision/cpp_int.hpp>
+#import <secp256k1/secp256k1.h>
+
+// ethereum
+#import <ethereum/AddressState.h>
+#import <ethereum/BlockChain.h>
+#import <ethereum/BlockInfo.h>
+#import <ethereum/Client.h>
+#import <ethereum/Common.h>
+#import <ethereum/Dagger.h>
+#import <ethereum/Defaults.h>
+#import <ethereum/Exceptions.h>
+#import <ethereum/ExtVMFace.h>
+#import <ethereum/ExtVMFace.h>
+#import <ethereum/FeeStructure.h>
+#import <ethereum/FileSystem.h>
+#import <ethereum/Instruction.h>
+#import <ethereum/MemTrie.h>
+#import <ethereum/PeerNetwork.h>
+#import <ethereum/RLP.h>
+#import <ethereum/State.h>
+#import <ethereum/Transaction.h>
+#import <ethereum/TransactionQueue.h>
+#import <ethereum/TrieCommon.h>
+#import <ethereum/TrieDB.h>
+#import <ethereum/TrieHash.h>
+#import <ethereum/UPnP.h>
+#import <ethereum/VM.h>
+#import <ethereum/vector_ref.h>
 
 @implementation AppDelegate
 
@@ -25,6 +54,7 @@
     UPNPDev dev;
     leveldb::FilterPolicy *filter;
     __GMP_ABS(1);
+    eth::RLP test;
 }
 
 

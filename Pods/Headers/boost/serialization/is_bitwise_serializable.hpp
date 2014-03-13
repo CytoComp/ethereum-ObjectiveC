@@ -1,0 +1,1 @@
+../../../../LocalPods/boost/1.55.0/boost/serialization/is_bitwise_serializable.hpp

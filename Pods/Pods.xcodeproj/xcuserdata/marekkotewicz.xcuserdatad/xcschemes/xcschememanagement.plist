@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-ethereum.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-gmp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-secp256k1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,32 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>227E3E503ED14C58A7C710E7</key>
+		<key>03D3250736334903BBE3E9E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3A75155FFA5A4732AF35C9EC</key>
+		<key>181DCF640F1647DF8077EF81</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7703AB27DCE74EA4A598871B</key>
+		<key>228F171B594A4338916B3EDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>97BFB93C042944B396464678</key>
+		<key>36E37CFCF74041DD83C619BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A65F74479B9F4B27B72A42AE</key>
+		<key>82942EB150F9439FB51456D4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CD5680BA080E43768B5F2152</key>
+		<key>8A9FA8D2BE8447B497B69773</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB952928FA484662A747C065</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E3AC451DFCA444069AA37935</key>
 		<dict>
 			<key>primary</key>
 			<true/>
