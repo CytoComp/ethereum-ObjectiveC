@@ -41,10 +41,15 @@
 #import <ethereum/VM.h>
 #import <ethereum/vector_ref.h>
 
-@interface AppDelegate ()
+@interface AppDelegate (){
+    eth::Client *client;
+    eth::KeyPair us;
+    eth::Address coinbase;
+}
 
 @property (weak) IBOutlet NSTextField *balanceTitleLabel;
 @property (weak) IBOutlet NSTextField *balanceValueLabel;
+//@property (strong) NSOperationQueue *etherQueue;
 
 
 @end
@@ -60,8 +65,8 @@
 - (void)test{
 
     eth::Defaults::get();
-    eth::KeyPair us = eth::KeyPair::create();
-    eth::Address coinbase = us.address();
+    us = eth::KeyPair::create();
+    coinbase = us.address();
     
     
     unsigned short listenPort = 30303;
@@ -73,15 +78,18 @@
     bool upnp = true;
     
     
-    
-    eth::Client client("test ver", coinbase, "");
-    client.startNetwork(listenPort, remoteHost, remotePort, mode, peers, publicIP, upnp);
-    
-    client.startMining();
-    while (true){
-        eth::u256 balance = client.state().balance(us.address());
-    }
+    client = new eth::Client("test ver", coinbase, "");
 
+    client->startNetwork(listenPort, remoteHost, remotePort, mode, peers, publicIP, upnp);
+    client->startMining();
+    
+
+    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateDisplay:) userInfo:nil repeats:YES];
+}
+
+- (void)updateDisplay:(id)sender{
+    eth::u256 balance = client->state().balance(us.address());
+    self.balanceValueLabel.stringValue = [NSString stringWithFormat:@"%s", balance.str().c_str()];
 }
 
 
