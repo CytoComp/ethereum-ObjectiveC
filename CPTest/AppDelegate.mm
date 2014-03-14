@@ -58,44 +58,30 @@
 }
 
 - (void)test{
-//    CryptoPP::MD5 md5; //
-//    UPNPDev dev;
-//    leveldb::FilterPolicy *filter;
-//    __GMP_ABS(1);
-//    eth::RLP test;
 
+    eth::Defaults::get();
+    eth::KeyPair us = eth::KeyPair::create();
+    eth::Address coinbase = us.address();
     
-//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        eth::Defaults::get();
-        eth::KeyPair us = eth::KeyPair::create();
-        eth::Address coinbase = us.address();
-        
-        
-        unsigned short listenPort = 30303;
-        std::string remoteHost;
-        unsigned short remotePort = 30303;
-        eth::NodeMode mode = eth::NodeMode::Full;
-        unsigned peers = 5;
-        std::string publicIP;
-        bool upnp = true;
-        
-        
-        
-        eth::Client client("test ver", coinbase, "");
-        client.startNetwork(listenPort, remoteHost, remotePort, mode, peers, publicIP, upnp);
-        
-        client.startMining();
-        while (true){
-            //        if (client.blockChain().details().number - n == mining)
-            //            client.stopMining();
-            eth::u256 balance = client.state().balance(us.address());
-            const char * cstr = balance.str().c_str();
-//            dispatch_async(dispatch_get_main_queue(), ^{
-                self.balanceValueLabel.stringValue = [NSString stringWithFormat:@"%s", cstr];
-//            });
-//            boost::this_thread::sleep_for(boost::chrono::milliseconds(100));
-        }
-//    });
+    
+    unsigned short listenPort = 30303;
+    std::string remoteHost;
+    unsigned short remotePort = 30303;
+    eth::NodeMode mode = eth::NodeMode::Full;
+    unsigned peers = 5;
+    std::string publicIP;
+    bool upnp = true;
+    
+    
+    
+    eth::Client client("test ver", coinbase, "");
+    client.startNetwork(listenPort, remoteHost, remotePort, mode, peers, publicIP, upnp);
+    
+    client.startMining();
+    while (true){
+        eth::u256 balance = client.state().balance(us.address());
+    }
+
 }
 
 
