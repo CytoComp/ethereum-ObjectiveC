@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
   #s.source = 'LocalPods/cryptopp/5.6.2'
-  s.source_files = '0.471/*.{h,m}'
+  s.source_files = '0.471/*.{h,cpp}'
   s.library = 'c++'
 
   s.platform = :osx

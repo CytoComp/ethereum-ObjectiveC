@@ -9,6 +9,7 @@ PODS:
   - miniupnpc (1.8.20131007)
   - secp256k1 (0.471):
     - boost
+    - gmp
 
 DEPENDENCIES:
   - boost (from `LocalPods/boost`)
@@ -38,10 +39,10 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: f2c74cd7769ddd33c9d8c32ade31879772ebe419
   cryptopp: 58392d1c6459645bb0c5ed4b0dd2c9df212b6fac
-  ethereum: f8a0668a9068e03245f56dcb94d360c8c846b5af
+  ethereum: 2e0b41d6baacc3d43d8b88b0daca965f73abb09c
   gmp: faf998c9d724580d27c131228c371542cc597d64
   leveldb: 87139120a416dad48bdabbea6671085cad794953
   miniupnpc: 974fae71e61db227f57be2610174cdee6ab555b5
-  secp256k1: 73e7a4b7ce2c264108e93faa07ebf87665564011
+  secp256k1: 5a69d6b8252e9cda6492846686d49f181b9ab9cf
 
 COCOAPODS: 0.29.0
