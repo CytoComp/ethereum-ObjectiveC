@@ -6,6 +6,12 @@
 // project.
 
 
+// ITSidebar
+#define COCOAPODS_POD_AVAILABLE_ITSidebar
+#define COCOAPODS_VERSION_MAJOR_ITSidebar 0
+#define COCOAPODS_VERSION_MINOR_ITSidebar 0
+#define COCOAPODS_VERSION_PATCH_ITSidebar 1
+
 // boost
 #define COCOAPODS_POD_AVAILABLE_boost
 #define COCOAPODS_VERSION_MAJOR_boost 1

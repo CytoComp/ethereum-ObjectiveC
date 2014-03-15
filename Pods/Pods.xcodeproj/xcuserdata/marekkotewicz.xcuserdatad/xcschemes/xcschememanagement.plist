@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-ITSidebar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-boost.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,42 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>18C39AF8487141639F0EF569</key>
+		<key>46279B14B07443C3AC6B1538</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>29B3B97392F64E459892B1DF</key>
+		<key>795F0A73E4E34C78883E829B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>66974DB7F8EF46F888181A09</key>
+		<key>7B359B9D90FE4189974A269D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>81250C0AAF244F27994D5F2B</key>
+		<key>9DB8AE44D4E146B88335B56F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C2507C0860A643DAAA5A194A</key>
+		<key>AEE0D7D441DE4ABF8E7D1963</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C3389FC92B114D3C9C267219</key>
+		<key>BA0F01D7967549C4A91C1BF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FA0A4EFAE0C5409D869C0BEF</key>
+		<key>C54702EFE77E452E84A16D83</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FE8C44A39AA348D7928524E8</key>
+		<key>E62ACCA1A0F545B989C1BD4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF42E767BBED48CCAD7AC940</key>
 		<dict>
 			<key>primary</key>
 			<true/>

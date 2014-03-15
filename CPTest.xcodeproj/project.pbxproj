@@ -11,13 +11,25 @@
 		936F725C18D0F7A50011AF49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 936F725A18D0F7A50011AF49 /* InfoPlist.strings */; };
 		936F725E18D0F7A50011AF49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 936F725D18D0F7A50011AF49 /* main.m */; };
 		936F726218D0F7A50011AF49 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 936F726018D0F7A50011AF49 /* Credits.rtf */; };
-		936F726518D0F7A50011AF49 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 936F726418D0F7A50011AF49 /* AppDelegate.mm */; };
+		936F726518D0F7A50011AF49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 936F726418D0F7A50011AF49 /* AppDelegate.m */; };
 		936F726818D0F7A50011AF49 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 936F726618D0F7A50011AF49 /* MainMenu.xib */; };
 		936F726A18D0F7A50011AF49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936F726918D0F7A50011AF49 /* Images.xcassets */; };
 		936F727118D0F7A50011AF49 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F727018D0F7A50011AF49 /* XCTest.framework */; };
 		936F727218D0F7A50011AF49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F725118D0F7A50011AF49 /* Cocoa.framework */; };
 		936F727A18D0F7A50011AF49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 936F727818D0F7A50011AF49 /* InfoPlist.strings */; };
 		936F727C18D0F7A50011AF49 /* CPTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936F727B18D0F7A50011AF49 /* CPTestTests.m */; };
+		939A912B18D471B800ACA373 /* ETHSidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A912A18D471B800ACA373 /* ETHSidebar.m */; };
+		93AE90CD18D4AF55001300F4 /* ETHClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93AE90CC18D4AF55001300F4 /* ETHClient.mm */; };
+		93BBC5B118D44CB80070AF2C /* ETHTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BBC5B018D44CB80070AF2C /* ETHTopView.m */; };
+		93BBC5B418D44DAC0070AF2C /* ETHAppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BBC5B318D44DAC0070AF2C /* ETHAppView.m */; };
+		93BBC5B618D44ECB0070AF2C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BBC5B518D44ECB0070AF2C /* QuartzCore.framework */; };
+		93BBC5BA18D450C60070AF2C /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BBC5B918D450C60070AF2C /* NSBezierPath+BezierPathQuartzUtilities.m */; };
+		93DC063218D4F9C500F020BF /* ETHUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC063018D4F9C500F020BF /* ETHUserViewController.m */; };
+		93DC063318D4F9C500F020BF /* ETHUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DC063118D4F9C500F020BF /* ETHUserViewController.xib */; };
+		93DC063718D4F9E400F020BF /* ETHMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC063518D4F9E400F020BF /* ETHMineViewController.m */; };
+		93DC063818D4F9E400F020BF /* ETHMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DC063618D4F9E400F020BF /* ETHMineViewController.xib */; };
+		93DC063C18D4F9F800F020BF /* ETHKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC063A18D4F9F800F020BF /* ETHKeyViewController.m */; };
+		93DC063D18D4F9F800F020BF /* ETHKeyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DC063B18D4F9F800F020BF /* ETHKeyViewController.xib */; };
 		BF96C48A1AF74F889D5D9134 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD88ED36EC44240B33D3544 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +56,7 @@
 		936F725F18D0F7A50011AF49 /* CPTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPTest-Prefix.pch"; sourceTree = "<group>"; };
 		936F726118D0F7A50011AF49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		936F726318D0F7A50011AF49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		936F726418D0F7A50011AF49 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		936F726418D0F7A50011AF49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		936F726718D0F7A50011AF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		936F726918D0F7A50011AF49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		936F726F18D0F7A50011AF49 /* CPTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +64,26 @@
 		936F727718D0F7A50011AF49 /* CPTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPTestTests-Info.plist"; sourceTree = "<group>"; };
 		936F727918D0F7A50011AF49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		936F727B18D0F7A50011AF49 /* CPTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTestTests.m; sourceTree = "<group>"; };
+		939A912918D471B800ACA373 /* ETHSidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHSidebar.h; sourceTree = "<group>"; };
+		939A912A18D471B800ACA373 /* ETHSidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHSidebar.m; sourceTree = "<group>"; };
+		93AE90CB18D4AF55001300F4 /* ETHClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHClient.h; sourceTree = "<group>"; };
+		93AE90CC18D4AF55001300F4 /* ETHClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ETHClient.mm; sourceTree = "<group>"; };
+		93BBC5AF18D44CB80070AF2C /* ETHTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHTopView.h; sourceTree = "<group>"; };
+		93BBC5B018D44CB80070AF2C /* ETHTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHTopView.m; sourceTree = "<group>"; };
+		93BBC5B218D44DAC0070AF2C /* ETHAppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHAppView.h; sourceTree = "<group>"; };
+		93BBC5B318D44DAC0070AF2C /* ETHAppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHAppView.m; sourceTree = "<group>"; };
+		93BBC5B518D44ECB0070AF2C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		93BBC5B818D450C60070AF2C /* NSBezierPath+BezierPathQuartzUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+BezierPathQuartzUtilities.h"; sourceTree = "<group>"; };
+		93BBC5B918D450C60070AF2C /* NSBezierPath+BezierPathQuartzUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+BezierPathQuartzUtilities.m"; sourceTree = "<group>"; };
+		93DC062F18D4F9C500F020BF /* ETHUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHUserViewController.h; sourceTree = "<group>"; };
+		93DC063018D4F9C500F020BF /* ETHUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHUserViewController.m; sourceTree = "<group>"; };
+		93DC063118D4F9C500F020BF /* ETHUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ETHUserViewController.xib; sourceTree = "<group>"; };
+		93DC063418D4F9E400F020BF /* ETHMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHMineViewController.h; sourceTree = "<group>"; };
+		93DC063518D4F9E400F020BF /* ETHMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHMineViewController.m; sourceTree = "<group>"; };
+		93DC063618D4F9E400F020BF /* ETHMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ETHMineViewController.xib; sourceTree = "<group>"; };
+		93DC063918D4F9F800F020BF /* ETHKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHKeyViewController.h; sourceTree = "<group>"; };
+		93DC063A18D4F9F800F020BF /* ETHKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHKeyViewController.m; sourceTree = "<group>"; };
+		93DC063B18D4F9F800F020BF /* ETHKeyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ETHKeyViewController.xib; sourceTree = "<group>"; };
 		9A714454DE4143698E2AF731 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BBC5B618D44ECB0070AF2C /* QuartzCore.framework in Frameworks */,
 				936F725218D0F7A50011AF49 /* Cocoa.framework in Frameworks */,
 				BF96C48A1AF74F889D5D9134 /* libPods.a in Frameworks */,
 			);
@@ -80,6 +113,7 @@
 		936F724518D0F7A40011AF49 = {
 			isa = PBXGroup;
 			children = (
+				93BBC5AD18D44C770070AF2C /* Classes */,
 				936F725718D0F7A50011AF49 /* CPTest */,
 				936F727518D0F7A50011AF49 /* CPTestTests */,
 				936F725018D0F7A50011AF49 /* Frameworks */,
@@ -100,6 +134,7 @@
 		936F725018D0F7A50011AF49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93BBC5B518D44ECB0070AF2C /* QuartzCore.framework */,
 				936F725118D0F7A50011AF49 /* Cocoa.framework */,
 				936F727018D0F7A50011AF49 /* XCTest.framework */,
 				936F725318D0F7A50011AF49 /* Other Frameworks */,
@@ -122,7 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				936F726318D0F7A50011AF49 /* AppDelegate.h */,
-				936F726418D0F7A50011AF49 /* AppDelegate.mm */,
+				936F726418D0F7A50011AF49 /* AppDelegate.m */,
 				936F726618D0F7A50011AF49 /* MainMenu.xib */,
 				936F726918D0F7A50011AF49 /* Images.xcassets */,
 				936F725818D0F7A50011AF49 /* Supporting Files */,
@@ -158,6 +193,56 @@
 				936F727818D0F7A50011AF49 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93AE90CA18D4AF43001300F4 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				93AE90CB18D4AF55001300F4 /* ETHClient.h */,
+				93AE90CC18D4AF55001300F4 /* ETHClient.mm */,
+			);
+			path = Wrapper;
+			sourceTree = "<group>";
+		};
+		93BBC5AD18D44C770070AF2C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				93AE90CA18D4AF43001300F4 /* Wrapper */,
+				93BBC5B718D450A80070AF2C /* Utils */,
+				93BBC5AE18D44C770070AF2C /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		93BBC5AE18D44C770070AF2C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				93BBC5B218D44DAC0070AF2C /* ETHAppView.h */,
+				93BBC5B318D44DAC0070AF2C /* ETHAppView.m */,
+				93BBC5AF18D44CB80070AF2C /* ETHTopView.h */,
+				93BBC5B018D44CB80070AF2C /* ETHTopView.m */,
+				939A912918D471B800ACA373 /* ETHSidebar.h */,
+				939A912A18D471B800ACA373 /* ETHSidebar.m */,
+				93DC062F18D4F9C500F020BF /* ETHUserViewController.h */,
+				93DC063018D4F9C500F020BF /* ETHUserViewController.m */,
+				93DC063118D4F9C500F020BF /* ETHUserViewController.xib */,
+				93DC063418D4F9E400F020BF /* ETHMineViewController.h */,
+				93DC063518D4F9E400F020BF /* ETHMineViewController.m */,
+				93DC063618D4F9E400F020BF /* ETHMineViewController.xib */,
+				93DC063918D4F9F800F020BF /* ETHKeyViewController.h */,
+				93DC063A18D4F9F800F020BF /* ETHKeyViewController.m */,
+				93DC063B18D4F9F800F020BF /* ETHKeyViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		93BBC5B718D450A80070AF2C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				93BBC5B818D450C60070AF2C /* NSBezierPath+BezierPathQuartzUtilities.h */,
+				93BBC5B918D450C60070AF2C /* NSBezierPath+BezierPathQuartzUtilities.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,9 +324,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				936F725C18D0F7A50011AF49 /* InfoPlist.strings in Resources */,
+				93DC063818D4F9E400F020BF /* ETHMineViewController.xib in Resources */,
 				936F726A18D0F7A50011AF49 /* Images.xcassets in Resources */,
 				936F726218D0F7A50011AF49 /* Credits.rtf in Resources */,
+				93DC063D18D4F9F800F020BF /* ETHKeyViewController.xib in Resources */,
 				936F726818D0F7A50011AF49 /* MainMenu.xib in Resources */,
+				93DC063318D4F9C500F020BF /* ETHUserViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +381,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				936F726518D0F7A50011AF49 /* AppDelegate.mm in Sources */,
+				93BBC5BA18D450C60070AF2C /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */,
+				93DC063218D4F9C500F020BF /* ETHUserViewController.m in Sources */,
+				93BBC5B418D44DAC0070AF2C /* ETHAppView.m in Sources */,
+				93DC063718D4F9E400F020BF /* ETHMineViewController.m in Sources */,
+				939A912B18D471B800ACA373 /* ETHSidebar.m in Sources */,
+				936F726518D0F7A50011AF49 /* AppDelegate.m in Sources */,
+				93DC063C18D4F9F800F020BF /* ETHKeyViewController.m in Sources */,
+				93AE90CD18D4AF55001300F4 /* ETHClient.mm in Sources */,
+				93BBC5B118D44CB80070AF2C /* ETHTopView.m in Sources */,
 				936F725E18D0F7A50011AF49 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
