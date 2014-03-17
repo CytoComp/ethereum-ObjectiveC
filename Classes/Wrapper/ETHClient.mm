@@ -8,6 +8,7 @@
 
 #import <ethereum/Client.h>
 #import <ethereum/Defaults.h>
+#import <ethereum/FileSystem.h>
 #import "ETHClient.h"
 
 @interface ETHClient (){
@@ -32,8 +33,22 @@
 - (instancetype)init{
     if (self = [super init]){
         eth::Defaults::get();
+
         us = eth::KeyPair::create();
         coinbase = us.address();
+        
+        std::string configFile = eth::getDataDir() + "/config.rlp";
+        eth::bytes b = eth::contents(configFile);
+        if (b.size()) {
+            eth::RLP config(b);
+            us = eth::KeyPair(config[0].toHash<eth::Secret>());
+            coinbase = config[1].toHash<eth::Address>();
+        } else {
+
+            eth::RLPStream config(2);
+            config << us.secret() << coinbase;
+            eth::writeFile(configFile, config.out());
+        }
     
         client = new eth::Client("ethereum objective-c", coinbase, "");
     }

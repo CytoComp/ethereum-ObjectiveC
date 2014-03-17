@@ -16,6 +16,11 @@
 
 @property (weak) IBOutlet NSTextField *addressValueLabel;
 @property (weak) IBOutlet NSTextField *balanceValueLabel;
+@property (weak) IBOutlet NSButton *connectButton;
+@property (weak) IBOutlet NSButton *mineButton;
+
+@property (assign) BOOL connected;
+@property (assign) BOOL mining;
 
 @end
 
@@ -24,7 +29,6 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     ETHClient *client = [ETHClient sharedInstance];
-//    [client startNetwork];
     self.addressValueLabel.stringValue = [client address];
 
     self.sidebar.allowsEmptySelection = NO;
@@ -42,6 +46,24 @@
     [self.sidebar addItemWithImage:[NSImage imageNamed:@"help-gray"]
                     alternateImage:[NSImage imageNamed:@"help-white"]];
     
+    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateDisplay:) userInfo:nil repeats:YES];
+}
+
+- (void)updateDisplay:(id)sender{
+    ETHClient *client = [ETHClient sharedInstance];
+    self.balanceValueLabel.stringValue = [client balance];
+}
+
+- (IBAction)connectButtonPressed:(NSButton*)sender {
+    ETHClient *client = [ETHClient sharedInstance];
+    !self.connected ? [client startNetwork] : [client stopNetwork];
+    self.connected = !self.connected;
+}
+
+- (IBAction)mineButtonPressed:(id)sender {
+    ETHClient *client = [ETHClient sharedInstance];
+    !self.mining ? [client startMining] : [client stopMining];
+    self.mining = !self.mining;
 }
 
 

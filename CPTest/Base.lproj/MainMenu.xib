@@ -15,6 +15,8 @@
             <connections>
                 <outlet property="addressValueLabel" destination="KnR-nr-8gB" id="WQm-wc-kSG"/>
                 <outlet property="balanceValueLabel" destination="MxM-mE-dlU" id="fnx-aq-wRm"/>
+                <outlet property="connectButton" destination="zDk-BN-S3h" id="XVf-GO-nk8"/>
+                <outlet property="mineButton" destination="7j8-uS-WJK" id="eRb-aQ-Iq6"/>
                 <outlet property="sidebar" destination="yD5-Hr-Lhk" id="rJH-24-Xch"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -750,6 +752,28 @@
                             <constraint firstAttribute="height" constant="100" id="Moj-UB-ha8"/>
                         </constraints>
                     </customView>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zDk-BN-S3h">
+                        <rect key="frame" x="82" y="332" width="82" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Connect" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ipy-p4-0RJ">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="connectButtonPressed:" target="Voe-Tx-rLC" id="fPr-We-dRZ"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7j8-uS-WJK">
+                        <rect key="frame" x="179" y="332" width="82" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SqK-yH-EYz">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="mineButtonPressed:" target="Voe-Tx-rLC" id="6hu-Vl-1Oo"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="VEz-Vk-kfE" secondAttribute="bottom" id="AnY-iQ-SO7"/>
